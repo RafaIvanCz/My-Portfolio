@@ -1,0 +1,17 @@
+.style {
+  background-color: #2b2d42;
+  width: 15%;
+}
+
+.picture {
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  border: 1px solid black;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+}
