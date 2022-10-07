@@ -1,8 +1,15 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+  --bg-light: #e7d8c9;
+  --bg-menu: #0d1321;
+  --font-menu: #c44536;
+  --font-span: #012a4a;
+  --font-hero: #370617;
 }
 
 html {

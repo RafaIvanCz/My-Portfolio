@@ -1,0 +1,32 @@
+.hero-container {
+  width: 85%;
+  margin-left: 15%;
+  background-color: var(--bg-light);
+}
+
+h1 {
+  padding-top: 2%;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero-title {
+  font-weight: bold;
+  font-size: 300%;
+  color: var(--font-hero);
+  text-decoration: underline;
+}
+
+.h2-style {
+  text-align: center;
+  font-weight: bold;
+  font-size: 300%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--font-hero);
+}
+
+.hero-image {
+  position: relative;
+  margin-top: 2%;
+  margin-left: 22%;
+}
