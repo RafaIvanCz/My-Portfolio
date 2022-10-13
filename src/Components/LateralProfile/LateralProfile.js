@@ -1,21 +1,22 @@
 import React from "react"
 import "../LateralProfile/lateralProfile.css"
 import image from "../../assets/images/Profile.jpeg"
-// import linkedin from "../../assets/images/linkedin.png"
+import { BsLinkedin, BsGithub, BsInstagram, BsFacebook, } from 'react-icons/bs';
 
-const LateralProfile = () => {
+const  LateralProfile = () => {
+
   return (
     <>
       <div className=" position-relative ">
-        <div id="menu-hamb" className="style position-absolute vh-100">
-          <div className="profile d-flex flex-column align-items-center mt-3">
+        <div className="style position-absolute vh-100">
+          <div className="profile">
             <img src={image} className="picture" alt="" /> <br />
-            <a className="profile-text" href="#/home">Iván Cruz <br /> <span>W</span>eb<span>D</span>ev</a>
-            <div className="social-media">
-              <link href="/https://www.linkedin.com/in/rafael-ivan-cruz" target="_black" className="fab fa-linkedin-in"></link>
-              <link href="#/" target="_blank" className="fab fa-github"></link>
-              <link href="#/" target="_blank" className="fab fa-instagram"></link>
-              <link href="#/" target="_blank" className="fab fa-facebook-f"></link>
+            <h3 className="profile-text" >Iván Cruz <br /> Web-Dev </h3>
+            <div className="social-media fa-lg">
+              <a href="https://www.linkedin.com/in/rafael-ivan-cruz/" target="_blank" rel='noreferrer' ><BsLinkedin /></a>
+              <a href="https://github.com/RafaIvanCz" target="_blank" rel='noreferrer'><BsGithub /></a>
+              <a href="https://www.instagram.com/ivan.cz/" target="_blank" rel='noreferrer'><BsInstagram /></a>
+              <a href="https://www.facebook.com/evan.cz.7/" target="_blank" rel='noreferrer'><BsFacebook /></a>
             </div>
           </div>
           <nav className="navbar h-25">
@@ -24,13 +25,10 @@ const LateralProfile = () => {
             <a href="#/portfolio" id="nav-portfolio" onclick="active3()" className="nav-item">Portfolio</a>
             <a href="#/contact" id="nav-contact" onclick="active4()" className="nav-item">Contact</a>
           </nav>
-          <div className="dark-mode">
-            <i className="fas"></i>
-          </div>
         </div>
       </div>
     </>
   );
 }
 
-export default LateralProfile;
+export default LateralProfile

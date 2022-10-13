@@ -4,10 +4,12 @@ import LateralProfile from "./Components/LateralProfile/LateralProfile";
 
 const App = () => {
   return (
-    <>
+    <section>
       <LateralProfile />
-      <Hero />
-    </>
+      <>
+        <Hero />
+      </>
+    </section>
   );
 }
 
