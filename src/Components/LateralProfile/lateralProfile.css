@@ -1,5 +1,5 @@
 .style {
-  background-color: #0d1321;
+  background-color: var(--bg-menu);
   width: 15%;
 }
 
@@ -8,10 +8,6 @@
   flex-direction: column;
   align-items: center;
   margin-top: 10%;
-}
-
-.profile a:hover {
-  color: var(--font-menu);
 }
 
 .picture {
@@ -25,7 +21,7 @@
   text-align: center;
   text-decoration: none;
   font-size: 130%;
-  color: var(--font-menu);
+  color: var(--orange);
   font-weight: bold;
 }
 
@@ -36,12 +32,12 @@
 }
 
 .navbar a:hover {
-  color: var(--nav-hover);
+  color: var(--turquese2);
 }
 
 .nav-item {
   text-decoration: none;
-  color: var(--font-menu);
+  color: var(--orange);
   font-weight: bold;
   text-transform: none;
 }
@@ -55,5 +51,5 @@
 }
 
 .social-media a:hover {
-  color: var(--font-menu);
+  color: var(--orange);
 }
