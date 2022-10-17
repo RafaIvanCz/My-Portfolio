@@ -1,0 +1,64 @@
+.about-section {
+  position: absolute;
+  margin-left: 15%;
+  background-color: var(--bg-light);
+}
+
+.hr-about {
+  border-top: 3px solid blue;
+  height: 2px;
+  max-width: 85%;
+  padding: 0;
+  margin: 0 auto 0 15%;
+}
+
+.about-img {
+  border: 1px solid var(--font-span);
+  width: 100%;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+.img-text {
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: var(--font-hero);
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+}
+
+.img-title-text {
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: var(--font-hero);
+  font-weight: bold;
+  text-align: center;
+  margin: 5px;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
+  margin: 25px auto 15px auto;
+  width: 90%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: var(--font-hero);
+  font-weight: bold;
+  text-align: center;
+}
+
+.skills {
+  width: 92%;
+  height: 68%;
+  margin: 0 15px 0 auto;
+  border: 5px solid #9a031e;
+}
+
+.skill-title {
+  text-align: center;
+  margin: 10px;
+  color: var(--font-hero);
+  font-weight: bold;
+  text-decoration: underline;
+}

@@ -7,8 +7,8 @@ const  LateralProfile = () => {
 
   return (
     <>
-      <div className=" position-relative ">
-        <div className="style position-absolute vh-100">
+      <div className="position-relative">
+        <div className="style position-fixed vh-100">
           <div className="profile">
             <img src={image} className="picture" alt="" /> <br />
             <h3 className="profile-text" >Iván Cruz <br /> Web-Dev </h3>
@@ -20,10 +20,10 @@ const  LateralProfile = () => {
             </div>
           </div>
           <nav className="navbar h-25">
-            <a href="#/home" id="nav-home" onclick="active1()" className="nav-item">Home</a>
-            <a href="#/about" id="nav-about" onclick="active2()" className="nav-item">About</a>
-            <a href="#/portfolio" id="nav-portfolio" onclick="active3()" className="nav-item">Portfolio</a>
-            <a href="#/contact" id="nav-contact" onclick="active4()" className="nav-item">Contact</a>
+            <a href="/#home" id="nav-home" onclick="active1()" className="nav-item">Home</a>
+            <a href="/#about" id="nav-about" onclick="active2()" className="nav-item">About</a>
+            <a href="/#portfolio" id="nav-portfolio" onclick="active3()" className="nav-item">Portfolio</a>
+            <a href="/#contact" id="nav-contact" onclick="active4()" className="nav-item">Contact</a>
           </nav>
         </div>
       </div>
