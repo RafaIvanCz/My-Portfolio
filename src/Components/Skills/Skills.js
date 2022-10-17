@@ -1,7 +1,7 @@
 import React from "react"
 import "../Skills/skills.css"
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaGithub, FaNodeJs } from "react-icons/fa"
-import { SiJavascript, SiPostman, SiMongodb } from "react-icons/si"
+import { SiJavascript, SiTrello, SiMongodb } from "react-icons/si"
 
 const Skills = () => {
   return (
@@ -36,8 +36,8 @@ const Skills = () => {
         <p>NodeJs</p>
       </div>
       <div className="skill-item">
-        <SiPostman className="skill-icon"/>
-        <p>Postman</p>
+        <SiTrello className="skill-icon"/>
+        <p>Trello</p>
       </div>
       <div className="skill-item">
         <SiMongodb className="skill-icon"/>
