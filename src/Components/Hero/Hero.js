@@ -6,7 +6,7 @@ const Hero = () => {
 
   return (
     <>
-      <div>
+      <div className="hero" id='home'>
         <div className="hero-container vh-100">
           <div>
             <h1 className="hero-title"> Iván Cruz - Web Developer </h1>
