@@ -5,11 +5,12 @@ import Skills from "../Skills/Skills";
 
 const About = () => {
   return (
-    <section className="about" id='about'>
-      <hr className="hr-about"/>
-      <div className="row gx-0 about-section vh-100">
+    <section>
+      <div className="row gx-0 about-section vh-100" id="about">
         <div className="col">
-          <h1 className="about-me rounded-3">About Me!</h1>
+          <div className="about-me rounded-3">
+            <h1>About Me</h1>
+          </div>
           <img src={imageAbout} className="about-img rounded" alt="..." />
           <h5 className="img-title-text">Some extra information about me.</h5>
           <h6 className="img-text">I am an amateur musician. I can play guitar, drums, bass, guitalele and ukelele. So, if you want to hear me, please click <a href="https://youtu.be/QKryMgUUiRY" target="_blank" rel="noreferrer">Here</a>. <br/> I really like playing football. I prefer movies instead of television programs.</h6>
