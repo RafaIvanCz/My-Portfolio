@@ -6,7 +6,7 @@ import { BsLinkedin, BsGithub, BsInstagram, BsFacebook, } from 'react-icons/bs';
 const  LateralProfile = () => {
 
   return (
-    <>
+    <section>
       <div className="position-relative">
         <div className="style position-fixed vh-100">
           <div className="profile">
@@ -27,7 +27,7 @@ const  LateralProfile = () => {
           </nav>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 
