@@ -7,7 +7,7 @@
 .about-me {
   display: grid;
   place-items: center;
-  width: 100%;
+  width: 98%;
   height: 12%;
   background-color: var(--burgundy);
   margin-top: 2%;
@@ -22,7 +22,7 @@
 
 .about-img {
   border: 1px solid var(--turquese);
-  width: 100%;
+  width: 98%;
   margin-left: 2%;
   margin-top: 1%;
 }
@@ -62,6 +62,7 @@
   margin: 0 15px 0 auto;
   border: 5px solid;
   border-image: linear-gradient(90deg,var(--dark-red) 0%, var(--orange) 60%, var(--turquese) 100%) 1;
+  overflow-y: hidden;
 }
 
 .skill-title {
