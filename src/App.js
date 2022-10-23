@@ -1,5 +1,6 @@
 import "../src/App.css"
 import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
 import Hero from "./Components/Hero/Hero";
 import LateralProfile from "./Components/LateralProfile/LateralProfile";
 import Portfolio from "./Components/Portfolio/Portfolio";
@@ -13,6 +14,7 @@ const App = () => {
         <Hero />
         <About />
         <Portfolio />
+        <Contact />
       </div>
     </section>
   );
