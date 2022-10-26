@@ -16,16 +16,16 @@ const Contact = () => {
             <div className="contact-section">
               <div className="contact-item">
                 <TbWorld className="contact-icon" />
-                <p>Tucumán <br/>Argentina</p>
+                <p className="text-items-contact">Tucumán <br/>Argentina</p>
               </div>
               <div className="contact-item">
                 <MdEmail className="contact-icon" />
-                <p>rafaelivancz@gmail.com</p>
+                <p className="text-items-contact">rafaelivancz@gmail.com</p>
               </div>
               <div className="contact-item">
                 <BsTelephoneInboundFill className="contact-icon-call" />
                 <BsWhatsapp className="contact-icon-wpp" />
-                <p className="phone">+54 9 3815824231</p>
+                <p className="phone text-items-contact">+54 9 3815824231</p>
               </div>
             </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28506.676561731845!2d-65.2770003460068!3d-26.73369749670022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942267bbdda8e121%3A0x3a9a0d94726a17eb!2zVGFmw60gVmllam8sIFR1Y3Vtw6Fu!5e0!3m2!1ses-419!2sar!4v1666294610504!5m2!1ses-419!2sar" className="map-style rounded-3" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="maps"></iframe>

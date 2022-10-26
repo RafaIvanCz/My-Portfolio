@@ -1,7 +1,9 @@
 import React from "react"
 import "../About/about.css"
 import imageAbout from "../../assets/images/About-img.jpg"
+import Idioms from "../Idioms/Idioms"
 import Skills from "../Skills/Skills";
+import { GiDiploma } from "react-icons/gi"
 
 const About = () => {
   return (
@@ -12,8 +14,13 @@ const About = () => {
             <h1>About Me</h1>
           </div>
           <img src={imageAbout} className="about-img rounded" alt="..." />
-          <h5 className="img-title-text">Some extra information about me.</h5>
-          <h6 className="img-text">I am an amateur musician. I can play guitar, drums, bass, guitalele and ukelele. So, if you want to hear me, please click <a href="https://youtu.be/QKryMgUUiRY" target="_blank" rel="noreferrer">Here</a>. <br/> I really like playing football. I prefer movies instead of television programs.</h6>
+          <div className="skills-section">
+            <div className="skill-item">
+              <GiDiploma className="skill-icon degree-icon"/>
+              <p className="text-degree">High School Degree<br/><span className="span-degree">Business Expert</span></p>
+            </div>
+            <Idioms />
+          </div>
         </div>
         <div className="col col-text vh-100">
           <h3 className="about-text">I am a Front-end Web Developer really interested in working in the IT field. I am willing to work remotely anywhere in the world. <br/></h3>
