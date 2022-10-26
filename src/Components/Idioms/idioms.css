@@ -1,0 +1,26 @@
+.idioms-section {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.idioms-item {
+  text-align: center;
+  margin: 0 25px;
+  font-weight: bold;
+}
+
+.idioms-icon {
+  font-size: 40px;
+  color: var(--turquese);
+}
+
+.text-idioms {
+  color: var(--bg-menu);
+}
+
+.span-idioms {
+  color: var(--burgundy);
+}

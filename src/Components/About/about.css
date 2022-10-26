@@ -72,3 +72,15 @@
   font-weight: bold;
   text-decoration: underline;
 }
+
+.degree-icon {
+  color: var(--turquese);
+}
+
+.text-degree {
+  color: var(--bg-menu);
+}
+
+.span-degree {
+  color: var(--burgundy);
+}
