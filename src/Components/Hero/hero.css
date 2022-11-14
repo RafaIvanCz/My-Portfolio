@@ -22,7 +22,5 @@
 }
 
 .hero-image {
-  position: absolute;
-  margin-top: 2%;
-  margin-left: 19%;
+  margin: 20px 250px;
 }

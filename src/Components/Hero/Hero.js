@@ -7,11 +7,11 @@ const Hero = () => {
   return (
     <section>
       <div className="hero-container vh-100" id="home">
-        <div>
+        <div className="position-sticky">
           <h1 className="hero-title"> Iván Cruz - Web Developer </h1>
           <h2 className="h2-style"> ¡Welcome to my portfolio!</h2>
+          <img className="hero-image rounded" src={image} alt="" />
         </div>
-        <img className="hero-image rounded" src={image} alt="" />
       </div>
     </section>
   );
