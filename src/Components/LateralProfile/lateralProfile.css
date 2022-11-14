@@ -1,6 +1,7 @@
 .style {
   background-color: var(--bg-menu);
   width: 15%;
+  z-index: 1;
 }
 
 .profile {
