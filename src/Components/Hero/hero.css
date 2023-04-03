@@ -1,7 +1,13 @@
 .hero-container {
-  width: 85%;
+  width: auto;
   margin-left: 15%;
-  background-color: var(--bg-light);
+  z-index: 2;
+}
+
+.items-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .hero-title {
@@ -21,6 +27,34 @@
   overflow: hidden;
 }
 
-.hero-image {
+.hero-img {
   margin: 20px 250px;
+}
+
+@media (min-width: 360px) and (max-width: 719px) {
+  .hero-container {
+    width: auto;
+    height: 600px;
+    margin: 150px 0;
+  }
+
+  .items-container {
+    display: flex;
+    align-items: center;
+    margin: 80px 0;
+  }
+
+  .hero-title {
+    font-size: 30px;
+  }
+
+  .h2-style {
+    font-size: 35px;
+    margin-top: 10px;
+  }
+
+  .hero-img {
+    width: 400px;
+    margin: 60px 0;
+  }
 }

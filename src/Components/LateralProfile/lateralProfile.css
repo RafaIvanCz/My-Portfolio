@@ -1,6 +1,7 @@
-.style {
+.lateral-profile-style {
   background-color: var(--bg-menu);
   width: 15%;
+  height: 100%;
   z-index: 1;
 }
 
@@ -11,7 +12,7 @@
   margin-top: 10%;
 }
 
-.picture {
+.navbar-img {
   width: 90%;
   height: 90%;
   overflow: hidden;
@@ -24,6 +25,15 @@
   font-size: 130%;
   color: var(--orange);
   font-weight: bold;
+}
+
+.menu-hamb{
+  position: fixed;
+  top: 25px;
+  right: 30px;
+  cursor: pointer;
+  display: none;
+  z-index: 3;
 }
 
 .navbar {
@@ -41,6 +51,15 @@
   color: var(--orange);
   font-weight: bold;
   text-transform: none;
+  margin: 5px 0;
+}
+
+.menu-icon{
+  color: var(--font-light);
+  background-color: var(--dark-red);
+  border-radius: 8px;
+  padding: 4px;
+  font-size: 35px;
 }
 
 .social-media {
@@ -53,4 +72,54 @@
 
 .social-media a:hover {
   color: var(--orange);
+}
+
+@media (min-width: 360px) and (max-width: 719px) {
+  .lateral-profile-style {
+    width: 100%;
+    height: 85px;
+    position: fixed;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-evenly;
+    width: 190px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 25px;
+  }
+
+  .profile-text {
+    display: none;
+  }
+
+  .social-media a:hover {
+    color: var(--turquese2);
+  }
+
+  .display {
+    display: initial;
+  }
+
+  .profile {
+    margin-top: 8px;
+  }
+
+  .navbar-img {
+    width: 70px;
+    height: 70px;
+    margin-left: -300px;
+  }
+
+  .menu-hamb {
+    display: initial;
+  }
+  .navbar {
+    margin: -10px 0;
+  }
+  .nav-item {
+    text-align: center;
+
+  }
 }
