@@ -56,7 +56,7 @@ const particlesLoaded = useCallback(async container => {
           },
           links: {
             color: "#012a4a",
-            distance: 200,
+            distance: 150,
             enable: true,
             opacity: 0.2,
             width: 1,
@@ -71,8 +71,9 @@ const particlesLoaded = useCallback(async container => {
               default: "bounce",
             },
             random: false,
-            speed: 1.5,
+            speed: .7,
             straight: false,
+            speedUp: "none",
           },
           number: {
             density: {
