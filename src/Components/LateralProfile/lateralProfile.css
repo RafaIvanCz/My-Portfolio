@@ -74,7 +74,106 @@
   color: var(--orange);
 }
 
-@media (min-width: 360px) and (max-width: 719px) {
+@media (max-width: 280px) {
+  .lateral-profile-style {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-evenly;
+    width: 170px;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 5px;
+  }
+
+  .profile-text {
+    display: none;
+  }
+
+  .social-media a:hover {
+    color: var(--turquese2);
+  }
+
+  .display {
+    display: initial;
+  }
+
+  .profile {
+    margin-top: 8px;
+  }
+
+  .navbar-img {
+    width: 55px;
+    height: 55px;
+    margin-left: -220px;
+  }
+
+  .menu-hamb {
+    display: initial;
+    margin: -8px -15px;
+  }
+  .navbar {
+    margin: -10px 0;
+  }
+  .nav-item {
+    text-align: center;
+  }
+}
+
+@media (min-width: 281px) and (max-width: 360px) {
+  .lateral-profile-style {
+    width: 100%;
+    height: 85px;
+    position: fixed;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-evenly;
+    width: 190px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 25px;
+  }
+
+  .profile-text {
+    display: none;
+  }
+
+  .social-media a:hover {
+    color: var(--turquese2);
+  }
+
+  .display {
+    display: initial;
+  }
+
+  .profile {
+    margin-top: 8px;
+  }
+
+  .navbar-img {
+    width: 68px;
+    height: 68px;
+    margin-left: -275px;
+  }
+
+  .menu-hamb {
+    display: initial;
+  }
+  .navbar {
+    margin: -10px 0;
+  }
+  .nav-item {
+    text-align: center;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 719px) {
   .lateral-profile-style {
     width: 100%;
     height: 85px;
@@ -120,6 +219,59 @@
   }
   .nav-item {
     text-align: center;
+  }
+}
 
+@media (min-width: 720px) and (max-width: 768px) {
+  .lateral-profile-style {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-evenly;
+    width: 450px;
+    position: absolute;
+    margin-top: -27px;
+    margin-left: 25px;
+  }
+
+  .social-media-items {
+    width: 40px;
+  }
+
+  .profile-text {
+    display: none;
+  }
+
+  .social-media a:hover {
+    color: var(--turquese2);
+  }
+
+  .display {
+    display: initial;
+  }
+
+  .profile {
+    margin-top: 8px;
+  }
+
+  .navbar-img {
+    width: 82px;
+    height: 82px;
+    margin-right: 600px;
+  }
+
+  .menu-hamb {
+    display: initial;
+    margin-top: 7px;
+  }
+  .navbar {
+    margin: -10px 0;
+  }
+  .nav-item {
+    text-align: center;
   }
 }

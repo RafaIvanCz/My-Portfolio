@@ -17,11 +17,11 @@ const  LateralProfile = () => {
         <div className="profile">
           <img src={image} className="navbar-img" alt="" /> <br />
           <h3 className="profile-text" >Iván Cruz <br /> Web-Dev </h3>
-          <div className="social-media fa-lg">
-            <a href="https://www.linkedin.com/in/rafael-ivan-cruz/" target="_blank" rel='noreferrer' ><BsLinkedin /></a>
-            <a href="https://github.com/RafaIvanCz" target="_blank" rel='noreferrer'><BsGithub /></a>
-            <a href="https://www.instagram.com/ivan.cz/" target="_blank" rel='noreferrer'><BsInstagram /></a>
-            <a href="https://www.facebook.com/evan.cz.7/" target="_blank" rel='noreferrer'><BsFacebook /></a>
+          <div className="social-media">
+            <a className="social-media-items" href="https://www.linkedin.com/in/rafael-ivan-cruz/" target="_blank" rel='noreferrer' ><BsLinkedin /></a>
+            <a className="social-media-items" href="https://github.com/RafaIvanCz" target="_blank" rel='noreferrer'><BsGithub /></a>
+            <a className="social-media-items" href="https://www.instagram.com/ivan.cz/" target="_blank" rel='noreferrer'><BsInstagram /></a>
+            <a className="social-media-items" href="https://www.facebook.com/evan.cz.7/" target="_blank" rel='noreferrer'><BsFacebook /></a>
           </div>
         </div>
         <div className='menu-hamb' onClick={handleClick}>

@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.skill-item{
+.skill-item {
   text-align: center;
   margin: 0 25px;
   font-weight: bold;
@@ -13,4 +13,25 @@
 
 .skill-icon{
   font-size: 80px;
+}
+
+@media (max-width: 280px) {
+  .skills-section {
+    width: 100%;
+    margin: auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skill-icon {
+    width: 30px;
+    margin: -15px 0;
+  }
+
+  .skill-item {
+    text-align: center;
+    margin: 0 5px;
+    font-weight: bold;
+  }
 }
