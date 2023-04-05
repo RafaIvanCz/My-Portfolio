@@ -24,3 +24,27 @@
 .span-idioms {
   color: var(--burgundy);
 }
+
+@media (max-width: 280px) {
+  .idioms-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: unset;
+  }
+
+  .idioms-item {
+    width: 100%;
+    margin: 0;
+  }
+
+  .idioms-icon {
+    width: 20px;
+    margin: -10px 2px;
+  }
+
+  .text-idioms {
+    font-size: 6px;
+    margin-bottom: 0;
+  }
+}

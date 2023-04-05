@@ -8,7 +8,7 @@ import { GiDiploma } from "react-icons/gi"
 const About = () => {
   return (
     <section>
-      <div className="row gx-0 about-section vh-100" id="about">
+      <div className="row gx-0 about-section" id="about">
         <div className="col">
           <div className="about-me rounded-3">
             <h1>About Me</h1>
@@ -22,13 +22,17 @@ const About = () => {
             <Idioms />
           </div>
         </div>
-        <div className="col col-text vh-100">
+        <div className="col">
           <h3 className="about-text">I am a Front-end Web Developer really interested in working in the IT field. I am willing to work remotely anywhere in the world. <br/></h3>
           <div className="skills rounded">
             <h3 className="skill-title">SKILLS</h3>
             < Skills />
           </div>
         </div>
+      </div>
+      <div className="responsive-skill">
+        <h3 className="skill-title">SKILLS</h3>
+        < Skills />
       </div>
     </section>
   );
