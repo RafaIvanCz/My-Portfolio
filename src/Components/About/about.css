@@ -66,6 +66,14 @@
   overflow-y: hidden;
 }
 
+.responsive-skill {
+  display: none;
+  position: sticky;
+  width: 100%;
+  height: 90%;
+  background-color: var(--bg-light);
+}
+
 .skill-title {
   text-align: center;
   margin: 10px;
@@ -86,10 +94,6 @@
   color: var(--burgundy);
 }
 
-.responsive-skill {
-  display: none;
-}
-
 @media (max-width: 280px) {
   .about-section {
     width: 100%;
@@ -107,12 +111,8 @@
     height: 220px;
   }
 
-  .responsive-skill {
-    display: initial;
-    position: relative;
-    width: 100%;
-    height: 90%;
-    border: 3px solid black
+  .skill-degree {
+    border: none;
   }
 
   .about-me {
@@ -140,7 +140,12 @@
     margin-top: 1px;
   }
 
+  .responsive-skill {
+    display: initial;
+  }
+
   .skill-title {
     margin: 0;
+    background-color: var(--bg-light);
   }
 }
