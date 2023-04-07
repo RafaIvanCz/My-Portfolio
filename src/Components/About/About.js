@@ -14,7 +14,7 @@ const About = () => {
             <h1>About Me</h1>
           </div>
           <img src={imageAbout} className="about-img rounded" alt="..." />
-          <div className="skills-section">
+          <div className="skills-section skill-degree">
             <div className="skill-item">
               <GiDiploma className="skill-icon degree-icon"/>
               <p className="text-degree">High School Degree<br/><span className="span-degree">Business Expert</span></p>

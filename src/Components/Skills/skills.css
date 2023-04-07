@@ -21,7 +21,11 @@
     margin: auto 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--bg-light);
+    border: 5px solid;
+    border-image: linear-gradient(90deg,var(--dark-red) 0%, var(--orange) 60%, var(--turquese) 100%) 1;
   }
 
   .skill-icon {

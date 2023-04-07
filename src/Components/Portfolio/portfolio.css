@@ -54,3 +54,43 @@
   color: var(--burgundy);
   font-weight: bold;
 }
+
+@media (max-width: 280px) {
+  .portfolio {
+    position: relative;
+    background-color: var(--bg-light);
+    width: 100%;
+    margin-left: 0;
+    padding-top: 10%;
+  }
+
+  .portfolio-title {
+    font-size: 8px;
+    height: auto;
+    margin-bottom: 5px;
+  }
+
+  .portfolio-title h1 {
+    margin: auto;
+  }
+
+  .row-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .col-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .col-container h5 {
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 5%;
+    text-align: justify;
+    color: var(--burgundy);
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
