@@ -117,3 +117,62 @@
   border: 1px solid var(--bg-menu);
   box-shadow: none;
 }
+
+@media (max-width: 280px) {
+  .contact {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    background-color: var(--bg-light);
+  }
+
+  .contact-title {
+    font-size: 8px;
+    height: auto;
+    margin-bottom: 10px;
+    padding-bottom: 13px;
+  }
+
+  .contact-title h1 {
+    margin: auto;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-container,
+  .form-container {
+    width: 98%;
+    height: auto;
+  }
+
+  .contact-item {
+    width: 30%;
+  }
+
+  .contact-icon,
+  .contact-icon-call,
+  .contact-icon-wpp {
+    font-size: x-large;
+  }
+
+  .text-items-contact {
+    font-size: x-small;
+  }
+
+  .form-container {
+    margin: 5px 2px;
+  }
+
+  .form-style {
+    width: auto;
+  }
+
+  .form-control {
+    width: auto;
+    margin: 0 5px;
+  }
+}
