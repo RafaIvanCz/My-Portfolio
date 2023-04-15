@@ -33,12 +33,14 @@
   border: 2px solid var(--burgundy);
   width: 90%;
   scale: 0.97;
+  opacity: .8;
 }
 
 .portfolio-img:hover {
   opacity: 1;
   scale: 1;
-  transition: 1s;
+  transition: .5s;
+  filter: contrast(110%);
 }
 
 .img-style {
