@@ -28,7 +28,7 @@ const Portfolio = () => {
             <h5>"La Huellita Veterinaria" is the second project I participated where we put into practice the following languages for building it: HTML5, CSS3, Bootstrap, Javascript, React, Express, Postman and Mongodb.</h5>
           </div>
           <div className="col col-container">
-            <a className="img-style" href="https://github.com/nicolascianci/proyecto-final-RC-veterinaria" target="_blank" rel="noreferrer">
+            <a className="img-style" href="https://argentina-programa-cv.netlify.app" target="_blank" rel="noreferrer">
               <img className="portfolio-img rounded" src={CVArgPro} alt="" />
             </a>
             <h5>The "Argentina Programa CV" project is the final test that I had to pass for getting the First Steps in Web Development degree of Argentina Programa 4.0 course. I used technologies such as HTML5, CSS, Javascript and Bootstrap as the main framework.</h5>
